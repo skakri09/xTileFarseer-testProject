@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Map Id="CollisionTest">
+  <Description><![CDATA[]]></Description>
+  <TileSheets>
+    <TileSheet Id="16x16">
+      <Description><![CDATA[]]></Description>
+      <ImageSource><![CDATA[..\TileSheets\16x16TestTile.png]]></ImageSource>
+      <Alignment SheetSize="1 x 1" TileSize="16 x 16" Margin="0 x 0" Spacing="0 x 0" />
+      <Properties />
+    </TileSheet>
+  </TileSheets>
+  <Layers>
+    <Layer Id="MainLayer" Visible="True">
+      <Description><![CDATA[]]></Description>
+      <Dimensions LayerSize="30 x 15" TileSize="16 x 16" />
+      <TileArray>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <TileSheet Ref="16x16" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="7" />
+        </Row>
+        <Row>
+          <Null Count="22" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+      </TileArray>
+      <Properties>
+        <Property Key="foo" Type="Int32"><![CDATA[1]]></Property>
+      </Properties>
+    </Layer>
+    <Layer Id="CollisionLayer" Visible="False">
+      <Description><![CDATA[]]></Description>
+      <Dimensions LayerSize="100 x 25" TileSize="16 x 16" />
+      <TileArray>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <TileSheet Ref="16x16" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="77" />
+        </Row>
+        <Row>
+          <Null Count="22" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="70" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+        <Row>
+          <Null Count="100" />
+        </Row>
+      </TileArray>
+      <Properties />
+    </Layer>
+  </Layers>
+  <Properties />
+</Map>
